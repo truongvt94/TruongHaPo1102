@@ -686,7 +686,7 @@ span {
 	top: 0;
 	height: 100%;
 	width: 0;
-	border-left: 2px solid #ffffff;
+	border-left: 1px solid #ffffff;
 }
 
 .box-edu:after {
@@ -696,7 +696,7 @@ span {
 	height: 0;
 	left: 25px;
 	width: 10px;
-	border-top: 2px solid #ffffff;
+	border-top: 1px solid #ffffff;
 	margin-left: 10px;
 }
 
@@ -708,7 +708,7 @@ span {
 	left: -31px;
 	width: 50px;
 	margin-left: -20px;
-	border-top: 2px dotted #ffffff;
+	border-top: 1px dotted #ffffff;
 	z-index: 1;
 }
 
@@ -1070,6 +1070,21 @@ h1:after {
 .clearfix-one {
 	display: block;
 	clear: both;
+}
+
+h3 {
+    position: relative;
+    display: inline-block;
+}
+
+h3:before {
+    content: "";
+    width: 125px;
+    height: 0;
+    bottom: 0;
+    left: 5px;
+    border-bottom: 2px solid #ffffff;
+    position: absolute;
 }
 /*end footer*/
 /*add fonts*/
