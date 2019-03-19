@@ -20,7 +20,7 @@ body {
 
 ul li {
 	list-style-type: none;
-	margin-right: 25px;
+	padding-right: 15px;
 }
 
 ul li a {
@@ -46,7 +46,7 @@ p {
 
 /*header*/
 .header {
-	height: 555px;
+	height: 574px;
 	background: #242581;
 	padding-bottom: 45px;
 	clear: both;
@@ -103,7 +103,7 @@ p {
 	margin-top: -25px;
 	position: relative;
 	width: 100%;
-	height: 625px;
+	height: 646px;
 }
 
 .header-left-img .avatar-camera-left {
@@ -374,6 +374,7 @@ p {
 }
 
 .btn-skill {
+	margin-top: 25px;
 	text-align: right;
 	margin-right: 30px;
 }
@@ -453,15 +454,16 @@ p {
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-wrap: wrap;
+	text-align: center;
 	flex-wrap: wrap;
-	margin-right: 0;
+	margin-right: 35px;
 	margin-left: 0;
 	justify-content: center;
 	align-items: center;
 }
 
 .chart-row:last-child {
-	margin-bottom: 45px;
+	margin-bottom: 30px;
 }
 
 .circle {
@@ -517,12 +519,15 @@ span {
 }
 
 .span-white-per-number {
-	margin-left: -98px;
+	top: 0px;
 	margin-top: 70px;
+    left: 78px;
 }
 
 .span-white-per-text {
 	text-align: center;
+	top: 145px;
+	left: 57px;
 }
 
 .skills-right p {
@@ -976,7 +981,7 @@ h1{
 	position: relative;
 	font-family: 'Poppins';
 	font-style: normal;
-
+	margin-top: 0;
 	font-size: 25px;
 	line-height: normal;
 	letter-spacing: 0.05em;
