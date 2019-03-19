@@ -424,12 +424,12 @@
 
     .btn-prev {
         top: 15%;
-        left: 60px;
+        left: 55px;
     }
 
     .btn-next {
         top: 15%;
-        margin-left: -60px;
+        margin-left: -65px;
     }
 
     .icon-check {
@@ -445,7 +445,12 @@
     }
 
     .references-margin-avarta img {
-        margin-left: 105px;
+        margin-left: 100px;
+    }
+
+    ul li {
+        padding-right: 0px;
+        padding-left: 25px;
     }
 
     .references .references-margin {
