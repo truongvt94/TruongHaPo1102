@@ -1,11 +1,15 @@
 body {
-	width: 100%;
-	margin: 0;
+	width: 1440px;
+	margin: 0 auto;
 	padding: 0;
 	height: auto;
 	color: #ffffff;
-	font-family: 'Poppins';
-	letter-spacing: 0.05em;
+	font-family: 'Poppins', 
+	sans-serif;
+	font-size: 14px;
+	line-height: normal;
+	text-align: justify;
+
 }
 
 .menu ul {
@@ -16,7 +20,7 @@ body {
 
 ul li {
 	list-style-type: none;
-	margin-right: 12px;
+	margin-right: 25px;
 }
 
 ul li a {
@@ -34,14 +38,17 @@ ul li a:hover {
 p {
 	text-align: justify;
 	margin:0;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: normal;
 	padding:0;
 }
 
 /*header*/
 .header {
-	width: 100%;
-	height: 600px;
+	height: 555px;
 	background: #242581;
+	padding-bottom: 45px;
 	clear: both;
 	overflow: hidden;
 }
@@ -57,19 +64,19 @@ p {
 	margin-top: -250px;
 	color: #ffffff;
 	position: absolute;
-	left: 13%;
+	left: 142px;
 }
 
 .header-right .line {
-	width: 450px;
-	margin-left: 110px;
+	width: 467px;
+	margin-left: 115px;
 	margin-bottom: 15px;
 	height: 0;
 	border: 1px solid #F64C71;
 }
 
 .header-left-text h2 {
-	letter-spacing: 0.12em;
+	letter-spacing: 0.05em;
 	font-size: 40px;
 }
 
@@ -119,15 +126,25 @@ p {
 	position: absolute;
 }
 
+.header-right .bumble-walker .bumble-walker-p {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: normal;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	text-align: center !important;
+}
+
 .header-right .bumble-walker p {
-	margin-bottom:-3px;
 	text-align: center !important;
 }
 
 .header-left-text .ruby {
 	font-size: 20px;
-	letter-spacing: 0.03em;
 	margin-top: -12px;
+	font-style: normal;
+	font-weight: normal;
 }
 
 .language {
@@ -150,7 +167,7 @@ p {
 .bumble {
 	margin-top: -35px;
 	margin-bottom: 15px;
-	width: 245px;
+	width: 230px;
 	height: 2px;
 	background-image: linear-gradient(#FB644D, #F64C71);
 }
@@ -203,10 +220,25 @@ p {
 }
 
 .infor table tr td {
-	padding-left: 30px;
-	padding-bottom: 5px;
+	padding-bottom: 10px;
 	font-size: 14px;
 }
+.infor {
+	margin-left: 30px;
+}
+
+.infor table tr td:first-child {
+	padding-right: 22px;
+	font-weight: bold;
+}
+
+.infor table tr td:last-child {
+	font-weight: 300;
+}
+
+/*.infor table tr:last-child td {
+	font-weight: 200;
+}*/
 /*end header*/
 /*button*/
 .btn-ex {
@@ -217,7 +249,6 @@ p {
 	clear: both;
 	padding: 10px 20px;
 	margin-right: 50px;
-	margin-bottom: 25px;
 	width: 198px;
 	color: #ffffff;
 	border: 1px solid #ffffff;
@@ -230,15 +261,10 @@ p {
 	text-align: right;
 }
 
-.btn-skill-add {
-	margin: 30px;
-}
-
 .btn-add-experience-add {
 	clear: both;
 	padding: 10px 20px;
 	margin-right: 30px;
-	margin-bottom: 25px;
 	width: 198px;
 	color: #ffffff;
 	border: 1px solid #ffffff;
@@ -250,7 +276,7 @@ p {
 .btn-prev {
 	position: absolute;
 	top: 40%;
-	margin-left: 60px;
+	margin-left: 20px;
 }
 
 .btn-prev,
@@ -265,16 +291,16 @@ p {
 .btn-next {
 	float: right;
 	top: 40%;
-	margin-left: 15px;
-	left: 90%;
+	margin-left: 25px;
+	left: 94%;
 	position: absolute;
 }
 
 .btn-folder {
-	height: 250px;
+	height: 200px;
 	width: 25%;
 	float: left;
-	line-height: 250px;
+	line-height: 200px;
 	text-align: center;
 }
 
@@ -304,7 +330,7 @@ p {
 	padding: 10px 20px;
 	border: 1px solid #F64C71;
 	margin-top: 15px;
-	margin-left: -25px;
+	margin-left: -60px;
 	width: 134px;
 	height: 36px;
 	background-color: rgba(0,0,0,0);
@@ -337,10 +363,9 @@ p {
 
 .btn-edit-sumary {
 	color: #ffffff;
-	margin-right: 30px;
+	margin-right: 35px;
 	padding: 10px 20px;
 	border: 1px solid #F64C71;
-	margin-bottom: 45px;
 	width: 151px;
 	height: 36px;
 	margin-top: 15px;
@@ -356,12 +381,13 @@ p {
 
 /*PROFESSIONAL SUMMARY*/
 .professional {
-	width: 100%;
+	padding-bottom: 45px;
+	padding-top: 45px;
 	background-color: #2026B2;
 }
 
 .professional-margin {
-	width: 87%;
+	width: 1170px;
 	margin: 0 auto;
 }
 
@@ -373,24 +399,26 @@ p {
 
 /*Professional Skills*/
 .skills {
-	width: 100%;
+	padding-top: 45px;
+	padding-bottom: 45px;
 	clear: both;
 	background-color: #4A0F73;
 }
 
 .skills-margin {
-	width: 87%;
+	width: 1170px;
 	margin:0 auto;
 	background-color: #4A0F73;
 }
 
 .skills-left {
 	width: 50%;
+	margin-bottom: -25px;
 	float: left;
 }
 
 .skills-left p {
-	padding-right: 15px;
+	padding-right: 45px;
 }
 
 .cv-canvas span {
@@ -441,7 +469,6 @@ p {
 	width: 100%;
 	-ms-flex: 0 0 50%;
 	flex: 0 0 50%;
-	text-align: center;
 	max-width: 50%;
 }
 
@@ -550,14 +577,14 @@ span {
 }
 
 .experience {
-	padding-bottom:30px;
-	width: 100%;
+	padding-top: 45px;
+	padding-bottom:45px;
 	height: auto;
 	background: #F64C71;
 }
 
 .experience-margin {
-	width: 87%;
+	width: 1170px;
 	margin: 0 auto;
 }
 
@@ -614,15 +641,15 @@ span {
 }
 
 .experience-margin-left .box-edu:after {
-	left: 15px;
+	left: 17px;
 }
 
 .experience-margin-left .box-edu:before {
-	left: 30px;
+	left: 31px;
 }
 
 .education-margin-right .box-edu .item-edu {
-	margin-right: 30px;
+	margin-right: 31px;
 }
 
 .education-margin-right .uedesuhai {
@@ -634,7 +661,7 @@ span {
 }
 
 .education-margin-right .box-edu:before {
-	left: 50px;
+	left: 51px;
 }
 
 .education-margin-right .box-edu:after {
@@ -727,15 +754,14 @@ span {
 /*end education*/
 /*portfolio*/
 .portfolio {
-	width: 100%;
 	height: auto;
-	padding-top: 10px;
+	padding-top: 45px;
 	padding-bottom: 45px;
 	background: #563D67;
 }
 
 .portfolio .portfolio-margin {
-	width: 87%;
+	width: 1170px;
 	height: auto;
 	margin: 0 auto;
 }
@@ -756,7 +782,14 @@ span {
 }
 
 .menu-portfolio ul li a {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
 	font-size: 14px;
+	line-height: normal;
+	letter-spacing: 0.05em;
+	text-decoration-line: underline;
+	text-transform: uppercase;
 }
 
 .folder {
@@ -774,15 +807,19 @@ span {
 
 .folder .folder-margin .folder-margin-img {
 	width: 100%;
-	height: 250px;
-	line-height: 25;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	background: #FD7038;
 }
 
 .folder .folder-margin .folder-margin-imgg {
 	width: 100%;
-	height: 500px;
-	line-height: 45;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	background: #EECD10;
 }
 
@@ -802,13 +839,13 @@ span {
 }
 /*end project*/
 .references {
-	width: 100%;
-	padding-bottom: 30px;
+	padding-top: 45px;
+	padding-bottom: 45px;
 	background: #2F2FA1;
 }
 
 .references .references-margin {
-	width: 87%;
+	width: 1170px;
 	height: auto;
 	margin: 0 auto;
 }
@@ -822,8 +859,7 @@ span {
 	height: 150px;
 	margin-right: 30px;
 	border-radius: 50%;
-	padding:5px;
-	border: 1px solid #ffffff;
+	border: 5px solid #ffffff;
 }
 
 .slide {
@@ -840,9 +876,9 @@ span {
 
 .references-margin .references-margin-text p {
 	clear: both;
-	width: 60%;
+	width: 700px;
 	text-align: justify;
-	padding-left: 15px;
+	margin-left: -11px;
 	margin-top: 35px;
 }
 
@@ -868,7 +904,7 @@ span {
 
 .references-margin .references-margin-avarta {
 	float: left;
-	width: 25%;
+	width: 300px;
 }
 
 .references-margin .references-margin-text {
@@ -882,7 +918,7 @@ span {
 	font-family: 'Port Lligat Sans';
 	float: left;
 	margin-top: 9px;
-	margin-left: -15px;
+	margin-left: -48px;
 }
 
 .references-margin-text p {
@@ -902,7 +938,7 @@ span {
 /*icon*/
 .icon-check {
 	clear: both;
-	margin-left:42%;
+	margin-left:39%;
 }
 
 .icon-check ul li {
@@ -936,9 +972,15 @@ span {
 /*end icon*/
 /*before and after*/
 h1{
-	margin-top: 45px;
 	font-size: 25px;
 	position: relative;
+	font-family: 'Poppins';
+	font-style: normal;
+
+	font-size: 25px;
+	line-height: normal;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
 	display: inline-block;
 }
 
@@ -963,7 +1005,6 @@ h1:after {
 }
 
 .white-line{
-	margin-top: 45px;
 	font-size: 25px;
 	position: relative;
 	display: inline-block;
@@ -1073,28 +1114,35 @@ h1:after {
 }
 
 h3 {
-    position: relative;
-    display: inline-block;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: normal;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	position: relative;
+	display: inline-block;
 }
 
 h3:before {
-    content: "";
-    width: 125px;
-    height: 0;
-    bottom: 0;
-    left: 5px;
-    border-bottom: 2px solid #ffffff;
-    position: absolute;
+	content: "";
+	width: 125px;
+	height: 0;
+	bottom: 0;
+	left: 5px;
+	border-bottom: 2px solid #ffffff;
+	position: absolute;
 }
 /*end footer*/
 /*add fonts*/
-@font-face{
+/*@font-face{
 	font-family: 'Poppins';
-	/*src:url(../fonts/Poppins-Bold.ttf);*/
+	src:url(../fonts/Poppins-Bold.ttf);
 	src:url(../fonts/Poppins-Light.ttf);
-	/*src:url(../fonts/Poppins-Medium.ttf);*/
-	/*src:url(../fonts/Poppins-SemiBold.ttf);*/
-}
+	src:url(../fonts/Poppins-Medium.ttf);
+	src:url(../fonts/Poppins-SemiBold.ttf);
+}*/
 
 @font-face{
 	font-family: 'Port Lligat Sans';
