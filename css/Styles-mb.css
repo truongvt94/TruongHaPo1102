@@ -1,4 +1,8 @@
 @media (max-width: 575px) {
+    body {
+        width: 100%;
+    }
+
     .bumble {
         width: 50px;
     }
@@ -9,16 +13,13 @@
     }
 
     .infor table {
+        width: 98%;
         margin-left: -10px;
         margin-top:20px;
     }
 
     .header {
-        height: 690px;
-    }
-
-    .header-left-text p {
-        text-align: center;
+        height: 665px;
     }
 
     .header-left-img .avatar-camera-left {
@@ -38,11 +39,11 @@
         right: 110px;
     }
 
-    .btn-edit-profile {
+    .btn-sumary {
         margin-left: 0;
     }
 
-    .btn-sumary {
+    .btn-edit-profile {
         margin-left: 0;
     }
 
@@ -55,6 +56,7 @@
 
     .header-left-text .ruby {
         font-size: 14px;
+        padding-left: 77px;
         margin-top: 10px;
     }
 
@@ -80,10 +82,10 @@
     }
 
     .header-left-text .bumble {
-        margin-left: 70px;
+        margin-left: 79px;
         margin-top: -15px;
         margin-bottom: -10px;
-        width: 160px;
+        width: 95px;
     }
 
     .header-right {
@@ -108,8 +110,8 @@
     }
 
     .box-edu {
-        width: 92%;
-        margin-left: -23px;
+        width: 94%;
+        margin-left: -30px;
     }
 
     .team-chart {
@@ -117,8 +119,8 @@
     }
 
     .education-margin-right .box-edu {
-        width: 90%;
-        margin-left: -50px;
+        width: 92%;
+        margin-left: -53px;
     }
 
     .education-margin-right .box-edu .item-edu {
@@ -149,6 +151,11 @@
         text-align: center;
     }
 
+    .professional {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
     .professional-margin {
         width: 95%;
     }
@@ -170,7 +177,6 @@
     .btn-edit-sumary {
         margin-right: 0;
         margin-top: -35px;
-        margin-bottom: 35px;
     }
 
     .skills-margin {
@@ -185,7 +191,6 @@
         margin-left: 2%;
         text-align: justify;
         font-size: 16px;
-        margin-top: 25px;
     }
 
     .skills-left p {
@@ -215,7 +220,6 @@
     }
 
     h1 {
-        margin-top: 35px;
         font-size: 16px;
     }
 
@@ -228,10 +232,26 @@
         font-size: 14px;
     }
 
+    .btn-add-chart-right {
+        margin-bottom: 0;
+    }
+
+    .skills-right h1 {
+        padding-left: 0;
+    }
+
+    .skills-right p {
+        padding-left: 0;
+    }
+
     .skills-right {
         clear: both;
-        width: 100%;
+        padding-left: 0;
+        padding-top: 35px;
+        width: 96%;
         margin-top: 0;
+        margin: 0 auto;
+        margin-left: 10px;
     }
 
     .btn-skill {
@@ -247,17 +267,12 @@
         width: 95%;
     }
 
-    .btn-add-chart-right {
-        margin-bottom: 35px;
-    }
-
     .education-margin-right h1 {
         padding-left: 0;
     }
 
     .white-line {
         font-size: 16px;
-        margin-top: 25px;
     }
 
     .btn-add-experience {
@@ -279,6 +294,7 @@
 
     .experience-margin .education-margin-right {
         width: 95%;
+        padding-top: 25px;
     }
 
     .education-margin-right .uedesuhai {
@@ -330,6 +346,10 @@
         font-family: 'Poppins';
     }
 
+    .folder:last-child {
+        padding-bottom: 35px;
+    }
+
     .folder .folder-margin {
         width: 50%;
     }
@@ -350,7 +370,7 @@
     }
 
     .folder {
-        width: 95%;
+        width: 93%;
         margin: 0 auto;
     }
 
@@ -376,7 +396,7 @@
     }
 
     .references-margin .references-margin-avarta {
-        width: 100%;
+        width: 35%;
         float: none;
     }
 
@@ -386,36 +406,47 @@
 
     .btn-prev {
         top: 15%;
-        left: -25px;
+        left: 60px;
     }
 
     .btn-next {
         margin-left: -20px;
         top: 15%;
-        left: 90%;
+        margin-left: -45px;
     }
 
     .icon-check {
-        margin-left: 70px;
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
     }
 
     .icon-check ul li {
         float: left;
-        margin-top: 105px;
+        margin-top: 65px;
     }
 
     .references-margin-avarta img {
-        margin: 0;
+        margin-left: 130px;
+    }
+
+
+    .references .references-margin {
+        width: 98%;
     }
 
     .references-relative {
-        margin-left: -37px;
+        margin-left: -5px;
         margin-top: -25px;
     }
 
+    .add-references {
+
+    }
+
     .references-margin .references-margin-text p {
-        width: 95%;
-        padding-left: 0;
+        width: 85%;
+        padding-left: 43px;
         margin-top: 0;
         padding-top: 0;
     }
