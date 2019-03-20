@@ -241,6 +241,10 @@ p {
 }*/
 /*end header*/
 /*button*/
+.btn-profile {
+	margin-left: 15px;
+}
+
 .btn-ex {
 	text-align: right;
 }
